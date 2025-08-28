@@ -5,7 +5,7 @@ import { useIsMobile } from './useIsMobile';
 
 interface MobileGuardProps {
   children: ReactNode;
-  fallback?: ReactNode; // Allow users to pass any fallback component
+  fallback?: ReactNode;
 }
 
 export const MobileGuard = ({ children, fallback }: MobileGuardProps) => {
