@@ -1,0 +1,16 @@
+{
+  "name": "next-mobile-check",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "next": "15.1.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19"
+  }
+}
