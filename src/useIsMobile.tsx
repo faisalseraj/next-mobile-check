@@ -11,7 +11,6 @@ export const useIsMobile = () => {
 
       const ua = navigator.userAgent || navigator.vendor || (window as any).opera;
 
-      // Regular expression for mobile devices
       const isMobileDevice = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(
         ua.toLowerCase()
       );
